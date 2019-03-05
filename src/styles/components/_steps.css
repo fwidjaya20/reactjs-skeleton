@@ -1,0 +1,8 @@
+.ant-steps-item-icon .ant-steps-icon {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px !important;
+}
