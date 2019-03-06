@@ -45,6 +45,8 @@ export default class LoginFormContainer extends Component {
                 setTimeout(() => {
                     this.setState({ui: {...this.state.ui, isLoading: false}});
 
+                    localStorage.setItem('_token', 'tryme');
+
                     this.props.history.push(`/apps/dashboard`);
                 }, 2000);
             }

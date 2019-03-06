@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
-import {ApplicationRouting} from "./bootstraps/routing";
+import {ApplicationRouting} from "./bootstraps/app.routing";
 
 import './index.css';
 import 'antd/dist/antd.css';

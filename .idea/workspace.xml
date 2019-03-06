@@ -2,27 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74566c38-78ff-4c38-af26-9e2762f5dd9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/domains/login/rules/login-form.rule.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/auth/components/login-form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/auth/containers/login-form.container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/auth/views/auth.routing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/auth/views/pages/login/login.page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/components/_buttons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/landing/landing-template.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/landing/landing-template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/web/web-template.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/web/web-template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bootstraps/app.routing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middleware/admin.middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middleware/authenticate.middleware.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bootstraps/routing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/bootstraps/routing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/dashboard/components/order-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dashboard/components/order-form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/dashboard/containers/order-wizard.container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dashboard/containers/order-wizard.container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/dashboard/containers/statistic.container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dashboard/containers/statistic.container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/dashboard/containers/user-table.container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dashboard/containers/user-table.container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/dashboard/views/pages/dashboard-wizard.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dashboard/views/pages/dashboard-wizard.page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/_forms.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/_forms.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/apps/apps-template.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/apps/apps-template.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/apps/apps-template.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/apps/apps-template.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bootstraps/routing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/auth/containers/login-form.container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/auth/containers/login-form.container.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/dashboard/views/dashboard.routing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/dashboard/views/dashboard.routing.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,14 +21,59 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/modules/auth/views/pages/login/login.page.js">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/commons/factories/router/router.factory.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="12" column="107" lean-forward="true" selection-start-line="12" selection-start-column="107" selection-end-line="12" selection-end-column="107" />
+            <state relative-caret-position="368">
+              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/middleware/authenticate.middleware.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/modules/auth/views/auth.routing.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/modules/dashboard/views/dashboard.routing.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/middleware/admin.middleware.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,7 +103,6 @@
         <option value="$PROJECT_DIR$/src/enviroments/config.js" />
         <option value="$PROJECT_DIR$/src/templates/apps/apps-routing.js" />
         <option value="$PROJECT_DIR$/src/modules/dashboard/pages/dashboard.page.js" />
-        <option value="$PROJECT_DIR$/src/modules/dashboard/views/dashboard.routing.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/styles/components/_steps.css" />
         <option value="$PROJECT_DIR$/src/domains/dashboard/rules/order-form.rule.ts" />
@@ -89,7 +120,6 @@
         <option value="$PROJECT_DIR$/src/modules/dashboard/views/pages/dashboard.page.js" />
         <option value="$PROJECT_DIR$/src/templates/web/web-template.js" />
         <option value="$PROJECT_DIR$/src/modules/auth/views/auth.routing.js" />
-        <option value="$PROJECT_DIR$/src/bootstraps/routing.js" />
         <option value="$PROJECT_DIR$/src/styles/component.css" />
         <option value="$PROJECT_DIR$/src/styles/components/_buttons.css" />
         <option value="$PROJECT_DIR$/src/styles/components/_forms.css" />
@@ -99,13 +129,20 @@
         <option value="$PROJECT_DIR$/src/templates/landing/landing-template.css" />
         <option value="$PROJECT_DIR$/src/templates/apps/apps-template.css" />
         <option value="$PROJECT_DIR$/src/modules/dashboard/views/pages/dashboard-wizard.page.js" />
-        <option value="$PROJECT_DIR$/src/modules/auth/containers/login-form.container.js" />
         <option value="$PROJECT_DIR$/src/templates/apps/apps-template.js" />
         <option value="$PROJECT_DIR$/src/modules/dashboard/containers/order-wizard.container.js" />
         <option value="$PROJECT_DIR$/src/modules/dashboard/components/order-form.js" />
         <option value="$PROJECT_DIR$/src/modules/dashboard/containers/statistic.container.js" />
         <option value="$PROJECT_DIR$/src/modules/dashboard/containers/user-table.container.js" />
         <option value="$PROJECT_DIR$/src/modules/auth/views/pages/login/login.page.js" />
+        <option value="$PROJECT_DIR$/src/bootstraps/routing.js" />
+        <option value="$PROJECT_DIR$/src/modules/auth/containers/login-form.container.js" />
+        <option value="$PROJECT_DIR$/src/middleware/authenticate.middleware.ts" />
+        <option value="$PROJECT_DIR$/src/middleware/middleware.js" />
+        <option value="$PROJECT_DIR$/src/middleware/authenticate.middleware.js" />
+        <option value="$PROJECT_DIR$/src/middleware/admin.middleware.js" />
+        <option value="$PROJECT_DIR$/src/modules/dashboard/views/dashboard.routing.js" />
+        <option value="$PROJECT_DIR$/src/commons/factories/router/router.factory.js" />
       </list>
     </option>
   </component>
@@ -116,10 +153,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="94" />
-    <option name="y" value="80" />
+    <option name="x" value="118" />
+    <option name="y" value="27" />
     <option name="width" value="1221" />
-    <option name="height" value="679" />
+    <option name="height" value="684" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -127,6 +164,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,6 +181,30 @@
               <item name="test-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="test-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstraps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="domains" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="middleware" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -159,25 +221,6 @@
               <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="auth" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test-app" type="b2602c69:ProjectViewProjectNode" />
@@ -190,20 +233,17 @@
               <item name="test-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="test-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../canfazz-pwa" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -256,12 +296,13 @@
       <workItem from="1551669508297" duration="695000" />
       <workItem from="1551684160086" duration="10162000" />
       <workItem from="1551752159085" duration="28429000" />
-      <workItem from="1551838994638" duration="8012000" />
+      <workItem from="1551838994638" duration="9749000" />
+      <workItem from="1551853854909" duration="5897000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53295000" />
+    <option name="totallyTimeSpent" value="60929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
@@ -282,7 +323,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.10666667" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.27666667" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -292,12 +333,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/domains/dashboard/services">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domains/dashboard/services/kpi-data.json" />
-    <entry file="file://$PROJECT_DIR$/src/domains/dashboard/services/dashboard.service.ts" />
-    <entry file="file://$PROJECT_DIR$/src/domains/dashboard/services/kpi.json" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -331,16 +366,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="69" lean-forward="true" selection-start-line="9" selection-end-line="9" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/web/web-template.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -364,26 +389,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/auth/auth.routing.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/auth/views/auth.routing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/dashboard/views/dashboard.routing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/auth/auth.routing.ts" />
     <entry file="file://$PROJECT_DIR$/src/styles/component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -475,16 +481,6 @@
         <state relative-caret-position="-1380" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/auth/containers/login-form.container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/antd/lib/layout/layout.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -549,16 +545,6 @@
     <entry file="file://$PROJECT_DIR$/node_modules/antd/lib/layout/layout.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/apps/apps-template.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/modules/dashboard/components/order-form.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-828">
@@ -589,16 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bootstraps/routing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/modules/dashboard/containers/statistic.container.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -621,10 +597,97 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/modules/auth/views/pages/login/login.page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="12" column="107" lean-forward="true" selection-start-line="12" selection-start-column="107" selection-end-line="12" selection-end-column="107" />
+        <state relative-caret-position="391">
+          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/apps/apps-template.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bootstraps/app.routing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/auth/containers/login-form.container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="47" column="60" selection-start-line="47" selection-start-column="60" selection-end-line="47" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/middleware/middleware.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/middleware/admin.middleware.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/dashboard/views/dashboard.routing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commons/factories/router/router.factory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/auth/views/auth.routing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/middleware/authenticate.middleware.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
