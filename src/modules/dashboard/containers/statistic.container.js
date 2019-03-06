@@ -19,9 +19,9 @@ export default class StatisticContainer extends Component {
 
     render() {
         const cards = (
-            this.state.data.statistic.map(value => {
+            this.state.data.statistic.map((value, index) => {
                 return (
-                    <div className="col-3">
+                    <div className="col-3" key={index}>
                         <StatisticCard data={value} />
                     </div>
                 );

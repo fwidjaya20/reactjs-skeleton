@@ -1,0 +1,20 @@
+.ant-layout {
+    position: relative;
+    width: 100% !important;
+    height: 100vh;
+    background-color: transparent !important;
+}
+
+.ant-layout #landingTemplate {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.ant-layout .landing-card {
+    position: relative !important;
+    width: 400px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}

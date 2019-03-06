@@ -49,7 +49,7 @@ export default class AppsTemplate extends Component {
                     </Menu>
                 </Sider>
                 <Layout style={{
-                    transition: 'all 100ms ease-in-out',
+                    transition: 'all 200ms ease',
                     transform: this.state.collapsed ? 'translateX(80px)' : 'translateX(200px)',
                     maxWidth: this.state.collapsed ? 'calc(100% - 80px)' : 'calc(100% - 200px)'
                 }}>
@@ -59,10 +59,11 @@ export default class AppsTemplate extends Component {
                             type={this.state.collapsed ? 'menu-unfold' : 'menu-fold'}
                             onClick={this.toggleSidebar} />
                     </Header>
-                    <Content>
+                    <Content id='appsTemplate'>
                         {this.props.children}
+
+                        <Footer> Copyrights &copy; 2019 </Footer>
                     </Content>
-                    <Footer> Copyrights &copy; 2019 </Footer>
                 </Layout>
             </Layout>
         );

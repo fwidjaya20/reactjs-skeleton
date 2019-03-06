@@ -7,7 +7,7 @@ class OrderForm extends Component {
         super(props);
 
         this.state = {
-            rule: this.props.formRules['ORDER_FORM_RULE']
+            rule: this.props.formRules
         };
     };
 

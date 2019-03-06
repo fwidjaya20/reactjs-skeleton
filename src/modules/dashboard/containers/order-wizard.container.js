@@ -13,7 +13,7 @@ export default class OrderWizardContainer extends Component {
             }
         };
 
-        this.rules = {ORDER_FORM_RULE};
+        this.rules = ORDER_FORM_RULE;
 
         this.order$ = {
             from: 'A',
@@ -58,7 +58,7 @@ export default class OrderWizardContainer extends Component {
                     handleToNextStep();
                     // hit some service
                 }
-            }, 5000);
+            }, 2000);
         });
     };
 }

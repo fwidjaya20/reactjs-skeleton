@@ -20,7 +20,7 @@ export default class DashboardWizardPage extends Component {
                     <div className="col-12"> Wizard Step 2 </div>
                 </div>
                 <div className='row'>
-                    <div className='col-12'>
+                    <div className='col-12 d-flex'>
                         <Button
                             htmlType='button'
                             onClick={this.prev}> Prev </Button>
@@ -38,7 +38,7 @@ export default class DashboardWizardPage extends Component {
                     <div className="col-12"> Wizard Step 3 </div>
                 </div>
                 <div className='row'>
-                    <div className='col-12'>
+                    <div className='col-12 d-flex'>
                         <Button
                             htmlType='button'
                             onClick={this.prev}> Prev </Button>
@@ -72,7 +72,16 @@ export default class DashboardWizardPage extends Component {
                         ) :
                         (
                             <div className='container-fluid'>
-                                Wizard Step Done
+                                <div className="row">
+                                    <div className="col-12">
+                                        Wizard Step Done
+                                    </div>
+                                    <div className="col-12 d-flex">
+                                        <Button
+                                            htmlType='button'
+                                            onClick={this.handleWizardCompleted}> Done </Button>
+                                    </div>
+                                </div>
                             </div>
                         )
                 }
@@ -95,8 +104,6 @@ export default class DashboardWizardPage extends Component {
                 wizardStep: nextStep
             });
         }
-
-        this.handleWizardCompleted();
     };
 
     handleWizardCompleted = () => {

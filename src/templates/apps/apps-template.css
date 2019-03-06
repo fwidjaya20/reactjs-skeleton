@@ -10,6 +10,7 @@
     align-items: center !important;
     background-color: #fff !important;
     padding-left: 16px !important;
+    box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.06);
 }
 
 .ant-layout-sider {
@@ -19,11 +20,12 @@
     overflow: hidden !important;
 }
 
-.ant-layout-content {
+#appsTemplate {
+    height: auto !important;
     padding: 16px 16px !important;
 }
 
-.ant-layout-content > .container-fluid {
+#appsTemplate > .container-fluid {
     position: relative;
     background-color: #fff;
     padding: 16px !important;
@@ -31,4 +33,5 @@
 
 .ant-layout-footer {
     text-align: center !important;
+    background-color: #fff !important;
 }
