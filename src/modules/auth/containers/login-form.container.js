@@ -2,18 +2,20 @@ import React, { Component } from 'react';
 import {Button} from "antd";
 import LoginForm from "../components/login-form";
 import {LOGIN_FORM_RULE} from "../../../domains/login/rules/login-form.rule";
+import LoginService from "../../../domains/login/services/login.service";
+import {NotifierService} from "../../../commons/services/notifier.service";
 
 export default class LoginFormContainer extends Component {
     constructor(props) {
         super(props);
 
+        this.loginService = new LoginService();
+        this.rules = LOGIN_FORM_RULE;
         this.state = {
             ui: {
                 isLoading: false
             }
         };
-
-        this.rules = LOGIN_FORM_RULE;
     }
 
     render() {
@@ -36,20 +38,36 @@ export default class LoginFormContainer extends Component {
         );
     };
 
-    handleLoginFormSubmitted = () => {
-        this.refs.loginForm.validateFields((errors, values) => {
-            console.log(errors, values);
-            if (!errors) {
-                this.setState({ ui: {...this.state.ui, isLoading: true} });
+    handleLoginFormSubmitted = async () => {
+        let errors, payload = {};
 
-                setTimeout(() => {
+        this.refs.loginForm.validateFields((err, values) => {
+            errors = err;
+            payload = values;
+        });
+
+        if (!errors) {
+            this.setState({ ui: {...this.state.ui, isLoading: true} });
+
+            await this.loginService.login(payload)
+                .then((result) => {
                     this.setState({ui: {...this.state.ui, isLoading: false}});
+                    console.log(result);
+
+                    NotifierService.showNotif('success', {
+                        message: result.status,
+                        description: 'This is the content of the notification. This is the content of the notification. This is the content of the notification.',
+                    });
+
+                    NotifierService.showMessage('success', 'Success Login');
 
                     localStorage.setItem('_token', 'tryme');
-
                     this.props.history.push(`/apps/dashboard`);
-                }, 2000);
-            }
-        })
-    }
+                })
+                .catch((error) => {
+                    this.setState({ui: {...this.state.ui, isLoading: false}});
+                    return error;
+                });
+        }
+    };
 }
