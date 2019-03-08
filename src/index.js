@@ -2,10 +2,10 @@ import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import {ApplicationRouting} from "./bootstraps/app.routing";
 
-import './index.css';
+import './index.scss';
 import 'antd/dist/antd.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './styles/component.css';
+import './styles/component.scss';
 
 ReactDOM.render(ApplicationRouting, document.getElementById('root'));
 

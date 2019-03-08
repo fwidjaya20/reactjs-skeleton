@@ -1,0 +1,30 @@
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 16px 16px;
+    box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    border: none !important;
+    font-size: 14px;
+
+    .card-header,
+    .card-content,
+    .card-footer {
+        background: transparent !important;
+        padding: 8px 0;
+        border: 0;
+    }
+
+    .card-content {
+        padding: 16px 0;
+    }
+
+    .card-header-divider {
+        border-bottom: 1px solid rgba(0,0,0,.125) !important;
+    }
+
+    .card-footer-divider {
+        border-top: 1px solid rgba(0, 0, 0, .125) !important;
+    }
+}

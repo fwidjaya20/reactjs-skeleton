@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Layout, Menu, Icon } from 'antd';
 import { Link } from 'react-router-dom';
 
-import './apps-template.css';
+import './apps-template.scss';
 import SubMenu from "antd/es/menu/SubMenu";
 
 const {Header, Content, Footer, Sider} = Layout;

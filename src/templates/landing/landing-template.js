@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Layout } from 'antd';
-import './landing-template.css';
+import './landing-template.scss';
 
 const { Content } = Layout;
 
